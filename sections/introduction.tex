@@ -1,0 +1,42 @@
+\section*{Introduction 介绍}
+
+\begin{ParaColumn}
+    Spatial variability is one of the major sources of uncertainty in geotechnical applications. In recent decades the necessity of considering spatial variability in geotechnical applications has been demonstrated in many studies (e.g., \citet{Griffiths1993577,Griffiths20091367,Cho2010975,Soubra2010275,Hicks2010948,Huang2010343,Stuedlein20121314,Cassidy2013191,Jha2013708,Javankhoshdel20141033,Jiang2014120,Le2014250,Li201560,Javankhoshdel2016,Xiao2016146,Li2016146,Luo201645,Javankhoshdel2017231,Papaioannou2017116}). The state of the practice is to characterize this spatial variability using the scale of fluctuation ($\theta$). The scale of fluctuation describes the distance over which the parameters of a soil or rock are similar or correlated; soil properties sampled from adjacent locations in the soil profile tend to have similar values, and as the sampling distance increases the correlation decreases. The scale of fluctuation is possibly the minimum information needed to simulate a spatially variable field that bears some semblance to reality. It is used as an input to an autocorrelation function (ACF) model (e.g., Markovian or Gaussian), which is either prescribed or identified from empirical autocorrelation values at discrete lags through some fitting procedures. This ACF model defines the correlation between two points separated by any arbitrary interval and orientation [for twodimensional (2D) and three-dimensional (3D) fields]. The scale of fluctuation by itself is insufficient—it can be viewed as a coarse descriptor of the spatial correlation structure in this sense. Other parameters are needed to describe the finer features of the spatial correlation structure \citep{Ching2019145}.
+
+    \switchcolumn
+
+    空间变异性是岩土工程应用中主要的不确定性来源之一。近几十年来考虑空间变异性的必要性已经在岩土工程应用中许多研究得到证明（例如，\citet{Griffiths1993577,Griffiths20091367,Cho2010975,Soubra2010275,Hicks2010948,Huang2010343,Stuedlein20121314,Cassidy2013191,Jha2013708,Javankhoshdel20141033,Jiang2014120,Le2014250,Li201560,Javankhoshdel2016,Xiao2016146,Li2016146,Luo201645,Javankhoshdel2017231,Papaioannou2017116}）。实践中采用波动尺度（$\theta$）来描述这种空间变异性。波动尺度描述了土或岩石的参数相似或相关的距离；从土体剖面中相邻位置采样的土体性质往往具有相似的值，随着采样距离的增加，相关性降低。波动尺度可能是模拟一个与现实有些相似的空间变化场所需要的最小信息。它被用作自相关函数（ACF）模型的输入（例如，马尔可夫或高斯），该模型通过一些拟合程序由离散滞后的经验自相关值规定或识别。这个ACF模型定义了由任意间隔和方向（用于二维（2D）和三维（3D）场）分隔的两点之间的相关性。波动本身的尺度是不够的，它可以看作是空间相关结构的一个粗略描述。需要其他参数来描述空间相关结构的更精细特征\citep{Ching2019145}。
+
+    \switchcolumn*
+
+    In design, we frequently are more interested in the scale of fluctuation relative to the characteristic length of the structure (e.g., footing width, slope height, retaining wall height, or tunnel diameter). A scale of fluctuation that is much longer than the characteristic length of the structure is practically infinite, in the sense that the volume of soil that influences soil–structure interaction can be regarded as homogeneous. The notion of a worst-case scale of fluctuation discussed herein also is related to the ratio of the scale of fluctuation to the characteristic length of the geotechnical structure.
+
+    \switchcolumn
+
+    在设计时，我们往往更关心相对于结构特征长度的波动尺度（例如，基脚宽度、斜坡高度、挡土墙高度或隧道直径）。一个比结构的特征长度大得多的波动尺度实际上是无限的，在这个意义上，影响土-结构相互作用的土体体积可以被认为是均匀的。文中讨论的最坏情况波动尺度的概念也与波动尺度与土工结构特征长度的比值有关。
+
+    \switchcolumn*
+
+    The concept of a scale of fluctuation, sometimes referred to as a spatial correlation length, originated in geostatistics for geology. This began with the variogram, which describes the amount of spatial dependence between two locations, as is explained in the next section.
+
+    \switchcolumn
+
+    波动尺度的概念，有时称为空间相关长度，起源于地质统计学。从方差图开始，它描述了两个位置之间的空间依赖量，下一节将对此进行解释。
+
+    \switchcolumn*
+
+    An important application of the variogram is kriging. Kriging is an interpolation method originally developed by \citet{Krige1951119,Krige196613} for predicting ore grades in spatially varying gold mines. It interpolates known points and uses a weighted average of a function of the covariance between them to obtain the average value at an unknown location. It has a sound theoretical basis in the form of minimizing mean square error, not entirely different from regression, except the measured points are correlated rather than independent \citep{Brockwell1991}. This method became quickly popular in geostatistics and now is used in a wide array of disciplines.
+
+    \switchcolumn
+
+    变异函数的一个重要应用是克里格法。克里格法是\citet{Krige1951119,Krige196613}最初开发的一种插值方法，用于预测空间变化的金矿中的矿石品位。它对已知点进行插值，并使用它们之间协方差函数的加权平均值来获得未知位置的平均值。 它具有使均方误差最小化的良好理论基础，与被测点没有关联，只是与被测点是相关的而不是独立的\citep{Brockwell1991}。 这种方法在地统计学中迅速流行，现在被广泛用于各种学科。
+
+    \switchcolumn
+
+    The application of the random field to model spatial variability in geotechnical engineering was popularized by \citet{Vanmarcke19771227}. Two concepts distinct from geostatistics became popular: (1) the scale of fluctuation that unifies autocorrelation function models and the implicit assumption that the scale of fluctuation is more important than the detailed mathematical form of the ACF (e.g., Markovian or Gaussian); and (2) spatial averaging and the variance reduction function (which also is related to the scale of fluctuation). Vanmarcke's \citeyearpar{Vanmarcke1983} key premise stated that all measurements involve spatial averaging, and therefore detailed differences in the spatially varying field are averaged out and the variance of the averaged field is smaller than that of the original field. This reduction is quantified by the variance reduction function. Recent literature demonstrated that spatial averaging in the Vanmarcke sense is not always the key mechanism in geotechnical engineering problems. An important mechanism not discussed by \citet{Vanmarcke19771227,Vanmarcke1983} is the worst-case scale of fluctuation, which is explained below.
+
+    \switchcolumn
+
+    \citet{Vanmarcke19771227}推广了将随机场应用于岩土工程中空间变异模型的应用。与地统计学不同的两个概念变得很流行：（1）统一自相关函数模型的波动规模和隐含的假设，即波动规模比ACF的详细数学形式（例如马尔可夫或高斯）更重要；（2）空间平均和方差减少函数（也与波动幅度有关）。 \citet{Vanmarcke1983}的关键前提是，所有测量都涉及空间平均，因此，空间变化场的详细差异被平均了，平均场的方差小于原始场的方差。该减少通过方差减少函数来量化。最近的文献表明，范马尔克意义上的空间平均并不总是岩土工程问题中的关键机制。 \citet{Vanmarcke19771227,Vanmarcke1983}尚未讨论的重要机制是最坏情况下的波动规模，下面将对此进行解释。
+    
+\end{ParaColumn}

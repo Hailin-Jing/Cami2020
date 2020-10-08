@@ -1,0 +1,183 @@
+\begin{thebibliography}{25}
+\providecommand{\natexlab}[1]{#1}
+\providecommand{\url}[1]{\texttt{#1}}
+\expandafter\ifx\csname urlstyle\endcsname\relax
+  \providecommand{\doi}[1]{doi: #1}\else
+  \providecommand{\doi}{doi: \begingroup \urlstyle{rm}\Url}\fi
+
+\bibitem[Brockwell and Davis(1991)]{Brockwell1991}
+P.J. Brockwell and R.A. Davis.
+\newblock \emph{Time Series: Theory and Methods}, 1991.
+
+\bibitem[Cassidy et~al.(2013)Cassidy, Uzielli, and Tian]{Cassidy2013191}
+M.J. Cassidy, M.~Uzielli, and Y.~Tian.
+\newblock Probabilistic combined loading failure envelopes of a strip footing
+  on spatially variable soil.
+\newblock \emph{Computers and Geotechnics}, 49:\penalty0 191--205, 2013.
+\newblock \doi{10.1016/j.compgeo.2012.10.008}.
+
+\bibitem[Ching and Phoon(2019)]{Ching2019145}
+J.~Ching and K.-K. Phoon.
+\newblock Constructing site-specific multivariate probability distribution
+  model using bayesian machine learning.
+\newblock \emph{Journal of Engineering Mechanics}, 145\penalty0 (1), 2019.
+\newblock \doi{10.1061/(ASCE)EM.1943-7889.0001537}.
+
+\bibitem[Cho(2010)]{Cho2010975}
+S.E. Cho.
+\newblock Probabilistic assessment of slope stability that considers the
+  spatial variability of soil properties.
+\newblock \emph{Journal of Geotechnical and Geoenvironmental Engineering},
+  136\penalty0 (7):\penalty0 975--984, 2010.
+\newblock \doi{10.1061/(ASCE)GT.1943-5606.0000309}.
+
+\bibitem[Griffiths and Fenton(1993)]{Griffiths1993577}
+D.V. Griffiths and G.A. Fenton.
+\newblock Seepage beneath water retaining structures founded on spatially
+  random soil.
+\newblock \emph{Geotechnique}, 43\penalty0 (4):\penalty0 577--587, 1993.
+\newblock \doi{10.1680/geot.1993.43.4.577}.
+
+\bibitem[Griffiths et~al.(2009)Griffiths, Huang, and Fenton]{Griffiths20091367}
+D.V. Griffiths, J.~Huang, and G.A. Fenton.
+\newblock Influence of spatial variability on slope reliability using 2-d
+  random fields.
+\newblock \emph{Journal of Geotechnical and Geoenvironmental Engineering},
+  135\penalty0 (10):\penalty0 1367--1378, 2009.
+\newblock \doi{10.1061/(ASCE)GT.1943-5606.0000099}.
+
+\bibitem[Hicks and Spencer(2010)]{Hicks2010948}
+M.A. Hicks and W.A. Spencer.
+\newblock Influence of heterogeneity on the reliability and failure of a long
+  3d slope.
+\newblock \emph{Computers and Geotechnics}, 37\penalty0 (7-8):\penalty0
+  948--955, 2010.
+\newblock \doi{10.1016/j.compgeo.2010.08.001}.
+
+\bibitem[Huang et~al.(2010)Huang, Griffiths, and Fenton]{Huang2010343}
+J.~Huang, D.V. Griffiths, and G.A. Fenton.
+\newblock System reliability of slopes by rfem.
+\newblock \emph{Soils and Foundations}, 50\penalty0 (3):\penalty0 343--353,
+  2010.
+\newblock \doi{10.3208/sandf.50.343}.
+
+\bibitem[Javankhoshdel(2016)]{Javankhoshdel2016}
+S.~Javankhoshdel.
+\newblock Reliability analysis of simple slopes and soil-structures with linear
+  limit states.
+\newblock \emph{Doctoral dissertation}, 2016.
+
+\bibitem[Javankhoshdel and Bathurst(2014)]{Javankhoshdel20141033}
+S.~Javankhoshdel and R.J. Bathurst.
+\newblock Simplified probabilistic slope stability design charts for cohesive
+  and cohesive-frictional (c-φ{symbol}) soils.
+\newblock \emph{Canadian Geotechnical Journal}, 51\penalty0 (9):\penalty0
+  1033--1045, 2014.
+\newblock \doi{10.1139/cgj-2013-0385}.
+
+\bibitem[Javankhoshdel et~al.(2017)Javankhoshdel, Luo, and
+  Bathurst]{Javankhoshdel2017231}
+S.~Javankhoshdel, N.~Luo, and R.J. Bathurst.
+\newblock Probabilistic analysis of simple slopes with cohesive soil strength
+  using rlem and rfem.
+\newblock \emph{Georisk}, 11\penalty0 (3):\penalty0 231--246, 2017.
+\newblock \doi{10.1080/17499518.2016.1235712}.
+
+\bibitem[Jha and Ching(2013)]{Jha2013708}
+S.K. Jha and J.~Ching.
+\newblock Simplified reliability method for spatially variable undrained
+  engineered slopes.
+\newblock \emph{Soils and Foundations}, 53\penalty0 (5):\penalty0 708--719,
+  2013.
+\newblock \doi{10.1016/j.sandf.2013.08.008}.
+
+\bibitem[Jiang et~al.(2014)Jiang, Li, Zhang, and Zhou]{Jiang2014120}
+S.-H. Jiang, D.-Q. Li, L.-M. Zhang, and C.-B. Zhou.
+\newblock Slope reliability analysis considering spatially variable shear
+  strength parameters using a non-intrusive stochastic finite element method.
+\newblock \emph{Engineering Geology}, 168:\penalty0 120--128, 2014.
+\newblock \doi{10.1016/j.enggeo.2013.11.006}.
+
+\bibitem[Krige(1951)]{Krige1951119}
+D.G. Krige.
+\newblock A statistical approach to some basic mine valuation problems on the
+  witwatersrand.
+\newblock \emph{Journal of the Chemical, Metallurgical and Mining Society of
+  South Africa}, 52\penalty0 (6):\penalty0 119--139, 1951.
+
+\bibitem[Krige(1966)]{Krige196613}
+D.G. Krige.
+\newblock Two-dimensional weighted moving average trend surfaces for
+  ore-evaluation.
+\newblock \emph{Journal of the South African Institute of Mining and
+  Metallurgy}, 66:\penalty0 13--38, 1966.
+
+\bibitem[Le(2014)]{Le2014250}
+T.M.H. Le.
+\newblock Reliability of heterogeneous slopes with cross-correlated shear
+  strength parameters.
+\newblock \emph{Georisk}, 8\penalty0 (4):\penalty0 250--257, 2014.
+\newblock \doi{10.1080/17499518.2014.966117}.
+
+\bibitem[Li et~al.(2015)Li, Jiang, Cao, Zhou, Zhou, and Zhang]{Li201560}
+D.-Q. Li, S.-H. Jiang, Z.-J. Cao, W.~Zhou, C.-B. Zhou, and L.-M. Zhang.
+\newblock A multiple response-surface method for slope reliability analysis
+  considering spatial variability of soil properties.
+\newblock \emph{Engineering Geology}, 187:\penalty0 60--72, 2015.
+\newblock \doi{10.1016/j.enggeo.2014.12.003}.
+
+\bibitem[Li et~al.(2016)Li, Zhou, Zhang, Tian, Cassidy, and Zhang]{Li2016146}
+J.H. Li, Y.~Zhou, L.L. Zhang, Y.~Tian, M.J. Cassidy, and L.M. Zhang.
+\newblock Random finite element method for spudcan foundations in spatially
+  variable soils.
+\newblock \emph{Engineering Geology}, 205:\penalty0 146--155, 2016.
+\newblock \doi{10.1016/j.enggeo.2015.12.019}.
+
+\bibitem[Luo et~al.(2016)Luo, Bathurst, and Javankhoshdel]{Luo201645}
+N.~Luo, R.J. Bathurst, and S.~Javankhoshdel.
+\newblock Probabilistic stability analysis of simple reinforced slopes by
+  finite element method.
+\newblock \emph{Computers and Geotechnics}, 77:\penalty0 45--55, 2016.
+\newblock \doi{10.1016/j.compgeo.2016.04.001}.
+
+\bibitem[Papaioannou and Straub(2017)]{Papaioannou2017116}
+I.~Papaioannou and D.~Straub.
+\newblock Learning soil parameters and updating geotechnical reliability
+  estimates under spatial variability–theory and application to shallow
+  foundations.
+\newblock \emph{Georisk}, 11\penalty0 (1):\penalty0 116--128, 2017.
+\newblock \doi{10.1080/17499518.2016.1250280}.
+
+\bibitem[Soubra and Massih(2010)]{Soubra2010275}
+A.-H. Soubra and D.S.Y.A. Massih.
+\newblock Probabilistic analysis and design at the ultimate limit state of
+  obliquely loaded strip footings.
+\newblock \emph{Geotechnique}, 60\penalty0 (4):\penalty0 275--285, 2010.
+\newblock \doi{10.1680/geot.7.00031}.
+
+\bibitem[Stuedlein et~al.(2012)Stuedlein, Kramer, Arduino, and
+  Holtz]{Stuedlein20121314}
+A.W. Stuedlein, S.L. Kramer, P.~Arduino, and R.D. Holtz.
+\newblock Reliability of spread footing performance in desiccated clay.
+\newblock \emph{Journal of Geotechnical and Geoenvironmental Engineering},
+  138\penalty0 (11):\penalty0 1314--1325, 2012.
+\newblock \doi{10.1061/(ASCE)GT.1943-5606.0000706}.
+
+\bibitem[Vanmarcke(1983)]{Vanmarcke1983}
+E.~Vanmarcke.
+\newblock \emph{Random Fields: Analysis and Synthesis}, 1983.
+
+\bibitem[Vanmarcke(1977)]{Vanmarcke19771227}
+Erik~H. Vanmarcke.
+\newblock Probabilistic modeling of soil profiles.
+\newblock \emph{ASCE J Geotech Eng Div}, 103\penalty0 (11):\penalty0
+  1227--1246, 1977.
+
+\bibitem[Xiao et~al.(2016)Xiao, Li, Cao, Au, and Phoon]{Xiao2016146}
+T.~Xiao, D.-Q. Li, Z.-J. Cao, S.-K. Au, and K.-K. Phoon.
+\newblock Three-dimensional slope reliability and risk assessment using
+  auxiliary random finite element method.
+\newblock \emph{Computers and Geotechnics}, 79:\penalty0 146--158, 2016.
+\newblock \doi{10.1016/j.compgeo.2016.05.024}.
+
+\end{thebibliography}

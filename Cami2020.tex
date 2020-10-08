@@ -1,0 +1,49 @@
+\documentclass{bilidoc}
+
+\geometry{
+  a4paper,%
+  left = 1.5cm,%
+  right = 1.5cm,%
+  top = 1.5cm,%
+  bottom = 1.5cm%
+}%
+
+\title{\textbf{\href{https://ascelibrary.org/doi/10.1061/AJRUA6.0001083}{Scale of Fluctuation for Spatially Varying Soils: Estimation Methods and Values \\土体变化的波动尺度：估计方法与数值}}}
+
+\author{Brigid Cami \thanks{
+    Geotechnical Software Developer, Rocscience, Inc., 54 St. Patrick St., Toronto, ON, Canada M5T 1V1. Email: \url{brigid.cami@rocscience.com}
+} \and Sina Javankhoshdel, Aff.M.ASCE \thanks{
+    Geomechanics Specialist, Rocscience, Inc., 54 St. Patrick St., Toronto, ON, Canada M5T 1V1. Email: \url{sina.javankhoshdel@rocscience.com}
+} \and Kok-Kwang Phoon, F.ASCE \thanks{
+    Professor, Dept. of Civil and Environmental Engineering, National Univ. of Singapore, Blk E1A, \#07-03, 1 Engineering Dr., Singapore 117576 (corresponding author). ORCID: \url{https://orcid.org/0000-0003-2577-8639}. Email: \url{kkphoon@nus.edu.sg}
+} \and Jianye Ching, M.ASCE \thanks{
+    Professor, Dept. of Civil Engineering, National Taiwan Univ., \#1, Roosevelt Rd. Section 4, Taipei 10617, Taiwan. ORCID: \url{https://orcid.org/0000-0001-6028-1674}. Email: \url{jyching@gmail.com}
+} \thanks{
+    Note. This manuscript was published online on July 31, 2020. Discussion period open until December 31, 2020; separate discussions must be submitted for individual papers. This paper is part of the {\bf\itshape ASCE-ASME Journal of Risk and Uncertainty in Engineering Systems, Part A: Civil Engineering}, © ASCE, ISSN 2376-7642.
+}}
+
+\date{}
+
+\begin{document}
+\maketitle
+
+\vspace{-13mm}
+
+\section*{Abstract 摘要}
+
+\begin{ParaColumn}[][0.62\textwidth]
+
+    Spatial variability is one of the major sources of uncertainty in geotechnical applications. This variability is characterized customarily by the scale of fluctuation. Scale of fluctuation describes the distance over which the parameters of a soil or rock are similar or correlated. The scale of fluctuation is required in order to best characterize and to simulate a spatially variable field. This paper first provides an overview of the various methods available for estimating the scale of fluctuation from cone penetration test (CPT) data, along with two examples for comparing the methods. The first part reveals some issues with two popular estimation methods, namely the method of moments and the maximum-likelihood method (MLE). The method of moments is less sensitive to the choice of the autocorrelation function (ACF), but it could be less precise and may be based on a correlation estimator that does not produce a positive definite autocorrelation matrix. MLE can be very sensitive to the choice of the classical one-parameter ACF. It is not uncommon to assume such an ACF, rather than to identify the ACF from actual soil data with a more general two-parameter Whittle–Matérn (WM) model. This practice may not be robust. Nonetheless, a literature survey is useful if these caveats are kept in mind. The second part of this paper provides a database table of horizontal and vertical scale of fluctuation values in different locations and for different materials, collected from published case studies, which can be used as a reference when field data are not readily available. The probable range of values as a function of soil type is provided to inform sensitivity analysis and to guide the selection of a prior distribution for Bayesian analysis.
+    
+    \switchcolumn
+
+    空间变异性是岩土工程应用中主要的不确定性来源之一。这种变异性通常以波动尺度为特征。波动尺度描述了土或岩石的参数相似或相关的距离。为了最好地表征和模拟空间可变场，需要波动尺度。本文首先概述了利用圆锥静力触探试验（CPT）数据估算波动尺度的各种方法，并给出了两个比较方法的例子。第一部分揭示了矩法和最大似然法这两种常用的估计方法存在的问题。矩量的方法对自相关函数（ACF）的选择不那么敏感，但它可能不那么精确，可能是基于一个不产生一个正定自相关矩阵的相关估计器。MLE对经典单参数ACF的选择非常敏感。假设这样一个ACF，而不是使用更一般的双参数惠特尔-马特模型从实际土体数据中识别ACF，这是很常见的。这种做法可能不健壮。尽管如此，如果记住这些警告，文献调查是有用的。本文的第二部分提供了从已发表的案例研究中收集的不同地点和不同材料的波动值水平和垂直尺度的数据库表，可以在没有现场数据的情况下作为参考。提供了土壤类型的函数值的可能范围，以告知敏感性分析和指导贝叶斯分析的先验分布的选择。
+
+\end{ParaColumn}
+
+\input{sections/introduction.tex}
+
+\bibliographystyle{plainnat}
+\bibliography{Cami2020.bib}
+    
+\end{document}
