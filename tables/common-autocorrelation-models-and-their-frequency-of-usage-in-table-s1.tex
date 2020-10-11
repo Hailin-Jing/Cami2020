@@ -1,0 +1,25 @@
+\begin{table}[htb]
+    \centering
+    \renewcommand\arraystretch{2}
+    \bicaption{Common autocorrelation models and their frequency of usage in Table S1}{表S1中常见的自相关模型及其使用频率}
+    \label{table:2}
+    \tabcolsep=1.5mm
+    \begin{tabular}{p{0.2\textwidth} llp{0.21\textwidth}<{\centering}}
+        \toprule
+        Autocorrelation model & Correlation as a function of lag $\tau$ & $\nu$ & Frequency of usage ($\%$) \\
+        \midrule
+        Markovian \newline(single exponential) & $\rho(\tau)=\exp \left\{\dfrac{-2|\tau|}{\theta}\right\}$ & 0.5 & 48 \\
+        Second-order Markov & $\rho(\tau)=\left(1+4 \dfrac{|\tau|}{\theta}\right) \exp \left\{-4 \dfrac{|\tau|}{\theta}\right\}$ & 1.5 & 5 \\
+        Third-order Markov & $\rho(\tau)=\left(1+\dfrac{16}{3} \dfrac{|\tau|}{\theta}+\dfrac{256}{27}\left(\dfrac{|\tau|}{\theta}\right)^{2}\right) \exp \left\{-\dfrac{16}{3} \dfrac{|\tau|}{\theta}\right\}$ & 2.5 & New to geotechnical practice \\
+        Gaussian \newline(squared exponential) & $\rho(\tau)=\exp \left\{-\pi\left(\dfrac{|\tau|}{\theta}\right)^{2}\right\}$ & $\infty$ & 19 \\
+        Spherical & $\rho(\tau)=\left\{\begin{array}{ll}\dfrac{4}{3}-2\left|\dfrac{\tau}{\theta}\right|+\dfrac{2}{3}\left|\dfrac{\tau}{\theta}\right|^{3}, & \text { if }|\tau| \leq \theta \\ 0, & \text { otherwise }\end{array}\right.$ & $-$ & 7 \\
+        Cosine exponential & $\rho(\tau)=\exp \left\{-\dfrac{|\tau|}{\theta}\right\} \cos \left\{\dfrac{|\tau|}{\theta}\right\}$ & $-$ & 8 \\
+        Binary noise & $\rho(\tau)=\left\{\begin{array}{ll}1-|\tau| / \theta, & \text { if }|\tau| \leq \theta \\ 0, & \text { otherwise }\end{array}\right.$ & $-$ & 12 \\
+        Whittle–Matérn & $\rho(\tau)=\dfrac{2}{\Gamma(\nu)}\left\{\dfrac{\sqrt{\pi} \Gamma(\nu+0.5)|\tau|}{\Gamma(\nu) \theta}\right\}^{\nu} K_{\nu}\left\{\dfrac{\sqrt{\pi} \Gamma(\nu+0.5)|\tau|}{\Gamma(\nu) \theta}\right\}$ & $-$ & $-$ \\
+        \bottomrule
+    \end{tabular}
+    \begin{flushleft}
+        Note: $\theta$ = scale of fluctuation; $\nu$ = smoothness parameter that reduces Whittle–Matérn model to specific one-parameter autocorrelation model (e.g., $\nu=0.5$ produces Markovian exponential model); model name third-order Markov is coined in this paper; $\Gamma$ = gamma function \citep{Abramowitz1970}; and $K_{\nu}$ = modified Bessel function of second kind with order $\nu$ \citep{Abramowitz1970}; Appendix derives equation for Whittle–Matérn model such that it integrates to $\theta$ as in \enautoref{equation:2}.
+    \end{flushleft}
+    
+\end{table}

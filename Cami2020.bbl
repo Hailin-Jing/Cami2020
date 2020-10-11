@@ -1,13 +1,56 @@
-\begin{thebibliography}{25}
+\begin{thebibliography}{72}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
 \expandafter\ifx\csname urlstyle\endcsname\relax
   \providecommand{\doi}[1]{doi: #1}\else
   \providecommand{\doi}{doi: \begingroup \urlstyle{rm}\Url}\fi
 
+\bibitem[Abramowitz and Stegun(1970)]{Abramowitz1970}
+M.~Abramowitz and I.A. Stegun.
+\newblock \emph{Handbook of Mathematical Functions}, 1970.
+
+\bibitem[Ahmed and Soubra(2014)]{Ahmed20142}
+A.~Ahmed and A.-H. Soubra.
+\newblock Probabilistic analysis at the serviceability limit state of two
+  neighboring strip footings resting on a spatially random soil.
+\newblock \emph{Structural Safety}, 49:\penalty0 2--9, 2014.
+\newblock \doi{10.1016/j.strusafe.2013.08.001}.
+
+\bibitem[Ali et~al.(2014)Ali, Huang, Lyamin, Sloan, Griffiths, Cassidy, and
+  Li]{Ali2014102}
+A.~Ali, J.~Huang, A.V. Lyamin, S.W. Sloan, D.V. Griffiths, M.J. Cassidy, and
+  J.H. Li.
+\newblock Simplified quantitative risk assessment of rainfall-induced
+  landslides modelled by infinite slopes.
+\newblock \emph{Engineering Geology}, 179:\penalty0 102--116, 2014.
+\newblock \doi{10.1016/j.enggeo.2014.06.024}.
+
+\bibitem[Breysse et~al.(2005)Breysse, Niandou, Elachachi, and
+  Houy]{Breysse2005143}
+D.~Breysse, H.~Niandou, S.~Elachachi, and L.~Houy.
+\newblock A generic approach to soil-structure interaction considering the
+  effects of soil heterogeneity.
+\newblock \emph{Geotechnique}, 55\penalty0 (2):\penalty0 143--150, 2005.
+\newblock \doi{10.1680/geot.2005.55.2.143}.
+
+\bibitem[Breysse et~al.(2007)Breysse, Niandou, Elachachi, and
+  Houy]{Breysse2007117}
+D.~Breysse, H.~Niandou, S.~Elachachi, and L.~Houy.
+\newblock A generic approach to soil-structure interaction considering the
+  effects of soil heterogeneity.
+\newblock pages 117--124, 2007.
+
 \bibitem[Brockwell and Davis(1991)]{Brockwell1991}
 P.J. Brockwell and R.A. Davis.
 \newblock \emph{Time Series: Theory and Methods}, 1991.
+
+\bibitem[Cao and Wang(2012)]{Cao2012267}
+Z.~Cao and Y.~Wang.
+\newblock Bayesian approach for probabilistic site characterization using cone
+  penetration tests.
+\newblock \emph{Journal of Geotechnical and Geoenvironmental Engineering},
+  139\penalty0 (2):\penalty0 267--276, 2012.
+\newblock \doi{10.1061/(ASCE)GT.1943-5606.0000765}.
 
 \bibitem[Cassidy et~al.(2013)Cassidy, Uzielli, and Tian]{Cassidy2013191}
 M.J. Cassidy, M.~Uzielli, and Y.~Tian.
@@ -16,12 +59,108 @@ M.J. Cassidy, M.~Uzielli, and Y.~Tian.
 \newblock \emph{Computers and Geotechnics}, 49:\penalty0 191--205, 2013.
 \newblock \doi{10.1016/j.compgeo.2012.10.008}.
 
+\bibitem[Ching and Phoon(2013{\natexlab{a}})]{Ching2013a}
+J.~Ching and K.-K. Phoon.
+\newblock Mobilized shear strength of spatially variable soils under simple
+  stress states.
+\newblock \emph{Structural Safety}, 41:\penalty0 20--28, 2013{\natexlab{a}}.
+\newblock \doi{10.1016/j.strusafe.2012.10.001}.
+
+\bibitem[Ching and Phoon(2013{\natexlab{b}})]{Ching2013b}
+J.~Ching and K.-K. Phoon.
+\newblock Probability distribution for mobilised shear strengths of spatially
+  variable soils under uniform stress states.
+\newblock \emph{Georisk}, 7\penalty0 (3):\penalty0 209--224,
+  2013{\natexlab{b}}.
+\newblock \doi{10.1080/17499518.2013.801273}.
+
+\bibitem[Ching and Phoon(2014)]{Ching2014686}
+J.~Ching and K.-K. Phoon.
+\newblock Correlations among some clay parameters - the multivariate
+  distribution.
+\newblock \emph{Canadian Geotechnical Journal}, 51\penalty0 (6):\penalty0
+  686--704, 2014.
+\newblock \doi{10.1139/cgj-2013-0353}.
+
+\bibitem[Ching and Phoon(2017)]{Ching2017}
+J.~Ching and K.-K. Phoon.
+\newblock Characterizing uncertain site-specific trend function by sparse
+  bayesian learning.
+\newblock \emph{Journal of Engineering Mechanics}, 143\penalty0 (7), 2017.
+\newblock \doi{10.1061/(ASCE)EM.1943-7889.0001240}.
+
+\bibitem[Ching and Phoon(2018)]{Ching2018}
+J.~Ching and K.-K. Phoon.
+\newblock Impact of autocorrelation function model on the probability of
+  failure.
+\newblock \emph{Journal of Engineering Mechanics}, 145\penalty0 (1), 2018.
+\newblock \doi{10.1061/(ASCE) EM.1943-7889.0001549}.
+
 \bibitem[Ching and Phoon(2019)]{Ching2019145}
 J.~Ching and K.-K. Phoon.
 \newblock Constructing site-specific multivariate probability distribution
   model using bayesian machine learning.
 \newblock \emph{Journal of Engineering Mechanics}, 145\penalty0 (1), 2019.
 \newblock \doi{10.1061/(ASCE)EM.1943-7889.0001537}.
+
+\bibitem[Ching et~al.(2016{\natexlab{a}})Ching, Hu, and Phoon]{Ching2016a}
+J.~Ching, Y.-G. Hu, and K.-K. Phoon.
+\newblock On characterizing spatially variable soil shear strength using
+  spatial average.
+\newblock \emph{Probabilistic Engineering Mechanics}, 45:\penalty0 31--43,
+  2016{\natexlab{a}}.
+\newblock \doi{10.1016/j.probengmech.2016.02.006}.
+
+\bibitem[Ching et~al.(2016{\natexlab{b}})Ching, Lee, and Phoon]{Ching2016b}
+J.~Ching, S.-W. Lee, and K.-K. Phoon.
+\newblock Undrained strength for a 3d spatially variable clay column subjected
+  to compression or shear.
+\newblock \emph{Probabilistic Engineering Mechanics}, 45:\penalty0 127--139,
+  2016{\natexlab{b}}.
+\newblock \doi{10.1016/j.probengmech.2016.03.002}.
+
+\bibitem[Ching et~al.(2016{\natexlab{c}})Ching, Phoon, and Wu]{Ching2016d}
+J.~Ching, K.K. Phoon, and S.H. Wu.
+\newblock Impact of statistical uncertainty on geotechnical reliability
+  estimation.
+\newblock \emph{Journal of Engineering Mechanics}, 142\penalty0 (6),
+  2016{\natexlab{c}}.
+\newblock \doi{10.1061/(ASCE)EM.1943-7889.0001075}.
+
+\bibitem[Ching et~al.(2016{\natexlab{d}})Ching, Tong, and Hu]{Ching2016e}
+J.~Ching, X.-W. Tong, and Y.-G. Hu.
+\newblock Effective young's modulus for a spatially variable soil mass
+  subjected to a simple stress state.
+\newblock \emph{Georisk}, 10\penalty0 (1):\penalty0 11--26, 2016{\natexlab{d}}.
+\newblock \doi{10.1080/17499518.2015.1084426}.
+
+\bibitem[Ching et~al.(2017{\natexlab{a}})Ching, Phoon, Beck, and
+  Huang]{Ching2017a}
+J.~Ching, K.-K. Phoon, J.L. Beck, and Y.~Huang.
+\newblock Identifiability of geotechnical site-specific trend functions.
+\newblock \emph{ASCE-ASME Journal of Risk and Uncertainty in Engineering
+  Systems, Part A: Civil Engineering}, 3\penalty0 (4), 2017{\natexlab{a}}.
+\newblock \doi{10.1061/AJRUA6.0000926}.
+
+\bibitem[Ching et~al.(2017{\natexlab{b}})Ching, Phoon, and Pan]{Ching2017b}
+J.~Ching, K.-K. Phoon, and Y.-K. Pan.
+\newblock On characterizing spatially variable soil young's modulus using
+  spatial average.
+\newblock \emph{Structural Safety}, 66:\penalty0 106--117, 2017{\natexlab{b}}.
+\newblock \doi{10.1016/j.strusafe.2017.03.001}.
+
+\bibitem[Ching et~al.(2017{\natexlab{c}})Ching, Phoon, and Sung]{Ching2017c}
+J.~Ching, K.-K. Phoon, and S.-P. Sung.
+\newblock Worst case scale of fluctuation in basal heave analysis involving
+  spatially variable clays.
+\newblock \emph{Structural Safety}, 68:\penalty0 28--42, 2017{\natexlab{c}}.
+\newblock \doi{10.1016/j.strusafe.2017.05.008}.
+
+\bibitem[Ching et~al.(2019)Ching, Phoon, Stuedlein, and Jaksa]{Ching201981}
+J.~Ching, K.-K. Phoon, A.W. Stuedlein, and M.~Jaksa.
+\newblock Identification of sample path smoothness in soil spatial variability.
+\newblock \emph{Structural Safety}, 81, 2019.
+\newblock \doi{10.1016/j.strusafe.2019.101870}.
 
 \bibitem[Cho(2010)]{Cho2010975}
 S.E. Cho.
@@ -31,12 +170,60 @@ S.E. Cho.
   136\penalty0 (7):\penalty0 975--984, 2010.
 \newblock \doi{10.1061/(ASCE)GT.1943-5606.0000309}.
 
+\bibitem[DeGroot and Baecher(1993)]{DeGroot1993147}
+D.J. DeGroot and G.B. Baecher.
+\newblock Estimating autocovariance of in-situ soil properties.
+\newblock \emph{Journal of Geotechnical Engineering}, 119\penalty0
+  (1):\penalty0 147--166, 1993.
+\newblock \doi{10.1061/(ASCE)0733-9410(1993)119:1(147)}.
+
+\bibitem[Fenton(1999)]{Fenton1999470}
+G.A. Fenton.
+\newblock Estimation for stochastic soil models.
+\newblock \emph{Journal of Geotechnical and Geoenvironmental Engineering},
+  125\penalty0 (6):\penalty0 470--485, 1999.
+\newblock \doi{10.1061/(ASCE)1090-0241(1999)125:6(470)}.
+
+\bibitem[Fenton and Griffiths(2003)]{Fenton200354}
+G.A. Fenton and D.V. Griffiths.
+\newblock Bearing-capacity prediction of spatially random c - ø soils.
+\newblock \emph{Canadian Geotechnical Journal}, 40\penalty0 (1):\penalty0
+  54--65, 2003.
+\newblock \doi{10.1139/t02-086}.
+
+\bibitem[Fenton and Griffiths(2005)]{Fenton2005232}
+G.A. Fenton and D.V. Griffiths.
+\newblock Three-dimensional probabilistic foundation settlement.
+\newblock \emph{Journal of Geotechnical and Geoenvironmental Engineering},
+  131\penalty0 (2):\penalty0 232--239, 2005.
+\newblock \doi{10.1061/(ASCE)1090-0241(2005)131:2(232)}.
+
+\bibitem[Fenton et~al.(2005)Fenton, Griffiths, and Williams]{Fenton200555}
+G.A. Fenton, D.V. Griffiths, and M.B. Williams.
+\newblock Reliability of traditional retaining wall design.
+\newblock \emph{Geotechnique}, 55\penalty0 (1):\penalty0 55--62, 2005.
+\newblock \doi{10.1680/geot.2005.55.1.55}.
+
+\bibitem[Fenton et~al.(2007)Fenton, Griffiths, and Williams]{Fenton2007165}
+G.A. Fenton, D.V. Griffiths, and M.B. Williams.
+\newblock Reliability of traditional retaining wall design.
+\newblock pages 165--172, 2007.
+
 \bibitem[Griffiths and Fenton(1993)]{Griffiths1993577}
 D.V. Griffiths and G.A. Fenton.
 \newblock Seepage beneath water retaining structures founded on spatially
   random soil.
 \newblock \emph{Geotechnique}, 43\penalty0 (4):\penalty0 577--587, 1993.
 \newblock \doi{10.1680/geot.1993.43.4.577}.
+
+\bibitem[Griffiths et~al.(2006)Griffiths, Fenton, and
+  Manoharan]{Griffiths2006421}
+D.V. Griffiths, G.A. Fenton, and N.~Manoharan.
+\newblock Undrained bearing capacity of two-strip footings on spatially random
+  soil.
+\newblock \emph{International Journal of Geomechanics}, 6\penalty0
+  (6):\penalty0 421--427, 2006.
+\newblock \doi{10.1061/(ASCE)1532-3641(2006)6:6(421)}.
 
 \bibitem[Griffiths et~al.(2009)Griffiths, Huang, and Fenton]{Griffiths20091367}
 D.V. Griffiths, J.~Huang, and G.A. Fenton.
@@ -46,6 +233,27 @@ D.V. Griffiths, J.~Huang, and G.A. Fenton.
   135\penalty0 (10):\penalty0 1367--1378, 2009.
 \newblock \doi{10.1061/(ASCE)GT.1943-5606.0000099}.
 
+\bibitem[Hicks(2012)]{Hicks201236}
+M.A. Hicks.
+\newblock An explanation of characteristic values of soil properties in
+  eurocode 7.
+\newblock \emph{Modern Geotechnical Design Codes of Practice}, pages 36--45,
+  2012.
+
+\bibitem[Hicks and Nuttall(2012)]{Hicks2012215}
+M.A. Hicks and J.D. Nuttall.
+\newblock Influence of soil heterogeneity on geotechnical performance and
+  uncertainty: a stochastic view on ec7.
+\newblock \emph{Proc. 10th International Probabilistic Workshop, Stuttgart},
+  pages 215--227, 2012.
+
+\bibitem[Hicks and Onisiphorou(2005)]{Hicks2005123}
+M.A. Hicks and C.~Onisiphorou.
+\newblock Stochastic evaluation of static liquefaction in a predominantly
+  dilative sand fill.
+\newblock \emph{Geotechnique}, 55\penalty0 (2):\penalty0 123--133, 2005.
+\newblock \doi{10.1680/geot.2005.55.2.123}.
+
 \bibitem[Hicks and Spencer(2010)]{Hicks2010948}
 M.A. Hicks and W.A. Spencer.
 \newblock Influence of heterogeneity on the reliability and failure of a long
@@ -54,12 +262,35 @@ M.A. Hicks and W.A. Spencer.
   948--955, 2010.
 \newblock \doi{10.1016/j.compgeo.2010.08.001}.
 
+\bibitem[Hicks et~al.(2019)Hicks, Varkey, van~den Eijnden, de~Gast, and
+  Vardon]{Hicks2019313}
+M.A. Hicks, D.~Varkey, A.P. van~den Eijnden, T.~de~Gast, and P.J. Vardon.
+\newblock On characteristic values and the reliability-based assessment of
+  dykes.
+\newblock \emph{Georisk}, 13\penalty0 (4):\penalty0 313--319, 2019.
+\newblock \doi{10.1080/17499518.2019.1652918}.
+
+\bibitem[Hu and Ching(2015)]{Hu2015121}
+Y.-G. Hu and J.~Ching.
+\newblock Impact of spatial variability in undrained shear strength on active
+  lateral force in clay.
+\newblock \emph{Structural Safety}, 52\penalty0 (PA):\penalty0 121--131, 2015.
+\newblock \doi{10.1016/j.strusafe.2014.09.004}.
+
 \bibitem[Huang et~al.(2010)Huang, Griffiths, and Fenton]{Huang2010343}
 J.~Huang, D.V. Griffiths, and G.A. Fenton.
 \newblock System reliability of slopes by rfem.
 \newblock \emph{Soils and Foundations}, 50\penalty0 (3):\penalty0 343--353,
   2010.
 \newblock \doi{10.3208/sandf.50.343}.
+
+\bibitem[Jaksa et~al.(2005)Jaksa, Goldsworthy, Fenton, Kaggwa, Griffiths, Kuo,
+  and Poulos]{Jaksa2005109}
+M.B. Jaksa, J.S. Goldsworthy, G.A. Fenton, W.S. Kaggwa, D.V. Griffiths, Y.L.
+  Kuo, and H.G. Poulos.
+\newblock Towards reliable and effective site investigations.
+\newblock \emph{Geotechnique}, 55\penalty0 (2):\penalty0 109--121, 2005.
+\newblock \doi{10.1680/geot.2005.55.2.109}.
 
 \bibitem[Javankhoshdel(2016)]{Javankhoshdel2016}
 S.~Javankhoshdel.
@@ -112,6 +343,11 @@ D.G. Krige.
 \newblock \emph{Journal of the South African Institute of Mining and
   Metallurgy}, 66:\penalty0 13--38, 1966.
 
+\bibitem[Lacasse and Nadim(1996)]{Lacasse199649}
+S.~Lacasse and F.~Nadim.
+\newblock Uncertainties in characterising soil properties.
+\newblock Number 58 I, pages 49--75, 1996.
+
 \bibitem[Le(2014)]{Le2014250}
 T.M.H. Le.
 \newblock Reliability of heterogeneous slopes with cross-correlated shear
@@ -133,12 +369,35 @@ J.H. Li, Y.~Zhou, L.L. Zhang, Y.~Tian, M.J. Cassidy, and L.M. Zhang.
 \newblock \emph{Engineering Geology}, 205:\penalty0 146--155, 2016.
 \newblock \doi{10.1016/j.enggeo.2015.12.019}.
 
+\bibitem[Lloret-Cabot et~al.(2014)Lloret-Cabot, Fenton, and
+  Hicks]{Lloret-Cabot2014129}
+M.~Lloret-Cabot, G.A. Fenton, and M.A. Hicks.
+\newblock On the estimation of scale of fluctuation in geostatistics.
+\newblock \emph{Georisk}, 8\penalty0 (2):\penalty0 129--140, 2014.
+\newblock \doi{10.1080/17499518.2013.871189}.
+
 \bibitem[Luo et~al.(2016)Luo, Bathurst, and Javankhoshdel]{Luo201645}
 N.~Luo, R.J. Bathurst, and S.~Javankhoshdel.
 \newblock Probabilistic stability analysis of simple reinforced slopes by
   finite element method.
 \newblock \emph{Computers and Geotechnics}, 77:\penalty0 45--55, 2016.
 \newblock \doi{10.1016/j.compgeo.2016.04.001}.
+
+\bibitem[Paiboon et~al.(2013)Paiboon, Griffiths, Huang, and
+  Fenton]{Paiboon20133233}
+J.~Paiboon, D.V. Griffiths, J.~Huang, and G.A. Fenton.
+\newblock Numerical analysis of effective elastic properties of geomaterials
+  containing voids using 3d random fields and finite elements.
+\newblock \emph{International Journal of Solids and Structures}, 50\penalty0
+  (20-21):\penalty0 3233--3241, 2013.
+\newblock \doi{10.1016/j.ijsolstr.2013.05.031}.
+
+\bibitem[Pan et~al.(2018)Pan, Liu, Xiao, Lee, and Phoon]{Pan2018150}
+Y.~Pan, Y.~Liu, H.~Xiao, F.H. Lee, and K.K. Phoon.
+\newblock Effect of spatial variability on short- and long-term behaviour of
+  axially-loaded cement-admixed marine clay column.
+\newblock \emph{Computers and Geotechnics}, 94:\penalty0 150--168, 2018.
+\newblock \doi{10.1016/j.compgeo.2017.09.006}.
 
 \bibitem[Papaioannou and Straub(2017)]{Papaioannou2017116}
 I.~Papaioannou and D.~Straub.
@@ -148,12 +407,34 @@ I.~Papaioannou and D.~Straub.
 \newblock \emph{Georisk}, 11\penalty0 (1):\penalty0 116--128, 2017.
 \newblock \doi{10.1080/17499518.2016.1250280}.
 
+\bibitem[Shah~Malekpoor et~al.(2020)Shah~Malekpoor, Jamshidi~Chenari, and
+  Javankhoshdel]{ShahMalekpoor20201979}
+P.~Shah~Malekpoor, R.~Jamshidi~Chenari, and S.~Javankhoshdel.
+\newblock Discussion of “probabilistic seismic slope stability analysis and
+  design”.
+\newblock \emph{Canadian Geotechnical Journal}, 57\penalty0 (7):\penalty0
+  1979--1998, 2020.
+\newblock \doi{10.1139/cgj-2019-0386}.
+
 \bibitem[Soubra and Massih(2010)]{Soubra2010275}
 A.-H. Soubra and D.S.Y.A. Massih.
 \newblock Probabilistic analysis and design at the ultimate limit state of
   obliquely loaded strip footings.
 \newblock \emph{Geotechnique}, 60\penalty0 (4):\penalty0 275--285, 2010.
 \newblock \doi{10.1680/geot.7.00031}.
+
+\bibitem[Soubra et~al.(2008)Soubra, Massih, and Kalfa]{Soubra200866}
+A.-H. Soubra, D.S.Y.A. Massih, and M.~Kalfa.
+\newblock Bearing capacity of foundations resting on a spatially random soil.
+\newblock Number 178, pages 66--73, 2008.
+\newblock \doi{10.1061/40971(310)8}.
+
+\bibitem[Stuedlein and Bong(2017)]{Stuedlein201731}
+A.W. Stuedlein and T.~Bong.
+\newblock Effect of spatial variability on static and liquefaction-induced
+  differential settlements.
+\newblock Number GSP 282, pages 31--51, 2017.
+\newblock \doi{10.1061/9780784480694.003}.
 
 \bibitem[Stuedlein et~al.(2012)Stuedlein, Kramer, Arduino, and
   Holtz]{Stuedlein20121314}
@@ -162,6 +443,26 @@ A.W. Stuedlein, S.L. Kramer, P.~Arduino, and R.D. Holtz.
 \newblock \emph{Journal of Geotechnical and Geoenvironmental Engineering},
   138\penalty0 (11):\penalty0 1314--1325, 2012.
 \newblock \doi{10.1061/(ASCE)GT.1943-5606.0000706}.
+
+\bibitem[Tang(1979)]{Tang19791173}
+W.H. Tang.
+\newblock Probabilistic evaluation of penetration resistances.
+\newblock \emph{Journal of the Geotechnical Engineering Division, ASCE},
+  105\penalty0 (GT10 Proc. Paper, 14902):\penalty0 1173--1191, 1979.
+
+\bibitem[Tian et~al.(2016)Tian, Li, Cao, Phoon, and Wang]{Tian2016197}
+M.~Tian, D.-Q. Li, Z.-J. Cao, K.-K. Phoon, and Y.~Wang.
+\newblock Bayesian identification of random field model using indirect test
+  data.
+\newblock \emph{Engineering Geology}, 210:\penalty0 197--211, 2016.
+\newblock \doi{10.1016/j.enggeo.2016.05.013}.
+
+\bibitem[Uzielli et~al.(2005)Uzielli, Vannucchi, and Phoon]{Uzielli20053}
+M.~Uzielli, G.~Vannucchi, and K.K. Phoon.
+\newblock Random field characterization of stress-normalised cone penetration
+  testing parameters.
+\newblock \emph{Geotechnique}, 55\penalty0 (1):\penalty0 3--20, 2005.
+\newblock \doi{10.1680/geot.2005.55.1.3}.
 
 \bibitem[Vanmarcke(1983)]{Vanmarcke1983}
 E.~Vanmarcke.
@@ -173,11 +474,49 @@ Erik~H. Vanmarcke.
 \newblock \emph{ASCE J Geotech Eng Div}, 103\penalty0 (11):\penalty0
   1227--1246, 1977.
 
+\bibitem[Vessia et~al.(2009)Vessia, Cherubini, Pieczyńska, and
+  Puła]{Vessia2009103}
+G.~Vessia, C.~Cherubini, J.~Pieczyńska, and W.~Puła.
+\newblock Application of random finite element method to bearing capacity
+  design of strip footing.
+\newblock \emph{Journal of GeoEngineering}, 4\penalty0 (3):\penalty0 103--112,
+  2009.
+\newblock \doi{10.6310/jog.2009.4(3).4}.
+
+\bibitem[Wang et~al.(2010)Wang, Au, and Cao]{Wang2010354}
+Y.~Wang, S.-K. Au, and Z.~Cao.
+\newblock Bayesian approach for probabilistic characterization of sand friction
+  angles.
+\newblock \emph{Engineering Geology}, 114\penalty0 (3-4):\penalty0 354--363,
+  2010.
+\newblock \doi{10.1016/j.enggeo.2010.05.013}.
+
 \bibitem[Xiao et~al.(2016)Xiao, Li, Cao, Au, and Phoon]{Xiao2016146}
 T.~Xiao, D.-Q. Li, Z.-J. Cao, S.-K. Au, and K.-K. Phoon.
 \newblock Three-dimensional slope reliability and risk assessment using
   auxiliary random finite element method.
 \newblock \emph{Computers and Geotechnics}, 79:\penalty0 146--158, 2016.
 \newblock \doi{10.1016/j.compgeo.2016.05.024}.
+
+\bibitem[Xiao et~al.(2019)Xiao, Li, Cao, and Zhang]{Xiao2019}
+T.~Xiao, D.-Q. Li, Z.-J. Cao, and L.-M. Zhang.
+\newblock Probabilistic characterization of 3-d spatial variability of soils:
+  Methodology and strategy.
+\newblock 2019.
+
+\bibitem[Zhang and Dasaka(2010)]{Zhang20101475}
+L.~Zhang and S.M. Dasaka.
+\newblock Uncertainties in geologic profiles versus variability in pile
+  founding depth.
+\newblock \emph{Journal of Geotechnical and Geoenvironmental Engineering},
+  136\penalty0 (11):\penalty0 1475--1488, 2010.
+\newblock \doi{10.1061/(ASCE)GT.1943-5606.0000364}.
+
+\bibitem[Zhu et~al.(2018)Zhu, Griffiths, and Fenton]{Zhu201885}
+D.~Zhu, D.V. Griffiths, and G.A. Fenton.
+\newblock Worst-case spatial correlation length in probabilistic slope
+  stability analysis.
+\newblock \emph{Geotechnique}, 69\penalty0 (1):\penalty0 85--88, 2018.
+\newblock \doi{10.1680/jgeot.17.T.050}.
 
 \end{thebibliography}

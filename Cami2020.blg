@@ -3,47 +3,57 @@ Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
 The top-level auxiliary file: Cami2020.aux
 The style file: plainnat.bst
 Database file #1: Cami2020.bib
+Warning--empty title in Abramowitz1970
+Warning--empty booktitle in Breysse2007117
 Warning--empty title in Brockwell1991
+Warning--empty booktitle in Fenton2007165
+Warning--empty booktitle in Lacasse199649
+Warning--there's a number but no series in Lacasse199649
+Warning--empty booktitle in Soubra200866
+Warning--there's a number but no series in Soubra200866
+Warning--empty booktitle in Stuedlein201731
+Warning--there's a number but no series in Stuedlein201731
 Warning--empty title in Vanmarcke1983
-You've used 25 entries,
+Warning--empty booktitle in Xiao2019
+You've used 72 entries,
             2773 wiz_defined-function locations,
-            785 strings with 9687 characters,
-and the built_in function-call counts, 11644 in all, are:
-= -- 1053
-> -- 628
-< -- 15
-+ -- 214
-- -- 189
-* -- 993
-:= -- 1822
-add.period$ -- 92
-call.type$ -- 25
-change.case$ -- 136
-chr.to.int$ -- 25
-cite$ -- 52
-duplicate$ -- 506
-empty$ -- 967
-format.name$ -- 230
-if$ -- 2445
-int.to.chr$ -- 1
+            1093 strings with 18209 characters,
+and the built_in function-call counts, 35301 in all, are:
+= -- 3187
+> -- 2014
+< -- 45
++ -- 684
+- -- 606
+* -- 3052
+:= -- 5444
+add.period$ -- 271
+call.type$ -- 72
+change.case$ -- 415
+chr.to.int$ -- 66
+cite$ -- 156
+duplicate$ -- 1534
+empty$ -- 2847
+format.name$ -- 728
+if$ -- 7473
+int.to.chr$ -- 7
 int.to.str$ -- 1
-missing$ -- 25
-newline$ -- 150
-num.names$ -- 100
-pop$ -- 222
+missing$ -- 72
+newline$ -- 423
+num.names$ -- 288
+pop$ -- 690
 preamble$ -- 1
-purify$ -- 113
+purify$ -- 346
 quote$ -- 0
-skip$ -- 381
+skip$ -- 1188
 stack$ -- 0
-substring$ -- 497
-swap$ -- 25
-text.length$ -- 0
+substring$ -- 1409
+swap$ -- 139
+text.length$ -- 10
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 275
-warning$ -- 2
-while$ -- 96
+type$ -- 792
+warning$ -- 12
+while$ -- 284
 width$ -- 0
-write$ -- 363
-(There were 2 warnings)
+write$ -- 1045
+(There were 12 warnings)

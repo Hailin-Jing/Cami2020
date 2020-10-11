@@ -5,7 +5,7 @@
 
     \switchcolumn
 
-    空间变异性是岩土工程应用中主要的不确定性来源之一。近几十年来考虑空间变异性的必要性已经在岩土工程应用中许多研究得到证明（例如，\citet{Griffiths1993577,Griffiths20091367,Cho2010975,Soubra2010275,Hicks2010948,Huang2010343,Stuedlein20121314,Cassidy2013191,Jha2013708,Javankhoshdel20141033,Jiang2014120,Le2014250,Li201560,Javankhoshdel2016,Xiao2016146,Li2016146,Luo201645,Javankhoshdel2017231,Papaioannou2017116}）。实践中采用波动尺度（$\theta$）来描述这种空间变异性。波动尺度描述了土或岩石的参数相似或相关的距离；从土体剖面中相邻位置采样的土体性质往往具有相似的值，随着采样距离的增加，相关性降低。波动尺度可能是模拟一个与现实有些相似的空间变化场所需要的最小信息。它被用作自相关函数（ACF）模型的输入（例如，马尔可夫或高斯），该模型通过一些拟合程序由离散滞后的经验自相关值规定或识别。这个ACF模型定义了由任意间隔和方向（用于二维（2D）和三维（3D）场）分隔的两点之间的相关性。波动本身的尺度是不够的，它可以看作是空间相关结构的一个粗略描述。需要其他参数来描述空间相关结构的更精细特征\citep{Ching2019145}。
+    空间变异性是岩土工程应用中主要的不确定性来源之一。近几十年来考虑空间变异性的必要性已经在岩土工程应用中许多研究得到证明（例如，\citet{Griffiths1993577,Griffiths20091367,Cho2010975,Soubra2010275,Hicks2010948,Huang2010343,Stuedlein20121314,Cassidy2013191,Jha2013708,Javankhoshdel20141033,Jiang2014120,Le2014250,Li201560,Javankhoshdel2016,Xiao2016146,Li2016146,Luo201645,Javankhoshdel2017231,Papaioannou2017116}）。实践中采用相关距离（$\theta$）来描述这种空间变异性。相关距离描述了土或岩石的参数相似或相关的距离；从土体剖面中相邻位置采样的土体性质往往具有相似的值，随着采样距离的增加，相关性降低。相关距离可能是模拟一个与现实有些相似的空间变化场所需要的最小信息。它被用作自相关函数（ACF）模型的输入（例如，马尔可夫或高斯），该模型通过一些拟合程序由离散滞后的经验自相关值规定或识别。这个ACF模型定义了由任意间隔和方向（用于二维（2D）和三维（3D）场）分隔的两点之间的相关性。波动本身的尺度是不够的，它可以看作是空间相关结构的一个粗略描述。需要其他参数来描述空间相关结构的更精细特征\citep{Ching2019145}。
 
     \switchcolumn*
 
@@ -13,7 +13,7 @@
 
     \switchcolumn
 
-    在设计时，我们往往更关心相对于结构特征长度的波动尺度（例如，基脚宽度、斜坡高度、挡土墙高度或隧道直径）。一个比结构的特征长度大得多的波动尺度实际上是无限的，在这个意义上，影响土-结构相互作用的土体体积可以被认为是均匀的。文中讨论的最坏情况波动尺度的概念也与波动尺度与土工结构特征长度的比值有关。
+    在设计时，我们往往更关心相对于结构特征长度的相关距离（例如，基脚宽度、斜坡高度、挡土墙高度或隧道直径）。一个比结构的特征长度大得多的相关距离实际上是无限的，在这个意义上，影响土-结构相互作用的土体体积可以被认为是均匀的。文中讨论的最坏情况相关距离的概念也与相关距离与土工结构特征长度的比值有关。
 
     \switchcolumn*
 
@@ -21,7 +21,7 @@
 
     \switchcolumn
 
-    波动尺度的概念，有时称为空间相关长度，起源于地质统计学。从方差图开始，它描述了两个位置之间的空间依赖量，下一节将对此进行解释。
+    相关距离的概念，有时称为空间相关长度，起源于地质统计学。从方差图开始，它描述了两个位置之间的空间依赖量，下一节将对此进行解释。
 
     \switchcolumn*
 
@@ -38,5 +38,69 @@
     \switchcolumn
 
     \citet{Vanmarcke19771227}推广了将随机场应用于岩土工程中空间变异模型的应用。与地统计学不同的两个概念变得很流行：（1）统一自相关函数模型的波动规模和隐含的假设，即波动规模比ACF的详细数学形式（例如马尔可夫或高斯）更重要；（2）空间平均和方差减少函数（也与波动幅度有关）。 \citet{Vanmarcke1983}的关键前提是，所有测量都涉及空间平均，因此，空间变化场的详细差异被平均了，平均场的方差小于原始场的方差。该减少通过方差减少函数来量化。最近的文献表明，范马尔克意义上的空间平均并不总是岩土工程问题中的关键机制。 \citet{Vanmarcke19771227,Vanmarcke1983}尚未讨论的重要机制是最坏情况下的波动规模，下面将对此进行解释。
+
+    \switchcolumn*
+
+    A series of random finite-element papers, including those by \citet{Fenton200354,Jaksa2005109,Fenton2007165,Breysse2007117,Ching2017a,Luo201645,Zhu201885}, showed that a critical or worst-case scale of fluctuation exists for a variety of problems. \citet{Javankhoshdel2017231} and \citet{ShahMalekpoor20201979} reported the worstcase spatial correlation length using random limit equilibrium as well. The worst-case scale of fluctuation is defined as the scale of fluctuation value that results in the highest probability of failure. It also has been identified as the case producing the lowest mean response, such as the lowest bearing capacity of a shallow foundation installed in a spatially variable soil. If the response were to be equal to the spatial average along a prescribed slip surface in the Vanmarcke’s \citeyearpar{Vanmarcke19771227} sense, the mean response will be equal to the mean of the random field. This is a theoretical result arising from Vanmarcke’s \citeyearpar{Vanmarcke19771227} definition of the spatial average as a stochastic line, surface, or volume integral of a random field in a prescribed domain. In other words, the limits of the integral are constants. It does not depend on the scale of fluctuation, and certainly a worst-case will not appear under the notion of a spatial average as defined by \citet{Vanmarcke19771227,Vanmarcke1983}. The worst-case scale of fluctuation, whenever it exists, is particularly useful for design when sufficient data are not available to estimate the scale of fluctuation directly. \citet{Ching2017a} compiled a table of worst-case scales of fluctuation reported in previous studies, which is reproduced in \enautoref{table:1} with minor updates.
+
+    \switchcolumn
+
+    一系列随机的有限元论文，包括\citet{Fenton200354,Jaksa2005109,Fenton2007165,Breysse2007117,Ching2017a,Luo201645,Zhu201885}表明，存在针对各种问题的临界或最坏情况的相关距离。 \citet{Javankhoshdel2017231}和\citet{ShahMalekpoor20201979}使用随机极限平衡原理报告了最坏情况的空间相关距离。最坏情况下的相关距离定义为导致最高故障概率的相关距离值范围。还已经确定这种情况产生最低的平均响应，例如在空间可变土中的浅层基础的最低承载能力。如果在\citet{Vanmarcke19771227}的意义上响应等于沿着规定的滑动表面的空间平均值，则平均响应将等于随机场的平均值。这是\citet{Vanmarcke19771227}对空间平均值的定义所产生的理论结果，空间平均值是在规定区域内随机场的随机线、曲面或体积积分。换句话说，积分的极限是常数。它不取决于波动的规模，并且在\citet{Vanmarcke19771227,Vanmarcke1983}定义的空间平均值概念下，当然也不会出现最坏情况。如果没有足够的数据直接估算相关距离，则最坏情况的相关距离（无论何时存在）对于设计特别有用。 \citet{Ching2017a}汇总了先前研究中报告的最坏情况相关距离表，\cnautoref{table:1}进行了较小的更新。
+
+    \CrossColumnText{
+        \input{tables/worst-case-scale-of-fluctuations-reported-in-previous-studies.tex}
+    }
+
+    \switchcolumn*
+
+    The concept of the worst-case scale of fluctuation has been explained in a series of papers using the concept of mobilized strength and modulus \citep{Ching2013a,Ching2013b,Ching2014686,Hu2015121,Ching2016a,Ching2016b,Ching2016e,Ching2017b,Ching2017c}. The idea of converting a complex spatially heterogeneous medium to an equivalent (in some sense) homogeneous medium is comparable to the classical homogenization theory in micromechanics \citep{Paiboon20133233}, except the equivalency principle is different. This concept is essentially a generalization of the classical spatial average, which was found to be limited to situations in which the failure path is constrained (e.g., side resistance of pile). It does not work for a failure path that is emergent (i.e., one that is the solution of a boundary value problem), such as a slope failure. It is evident that this path cannot be represented by a stochastic line integral with constant integration limits. \citet{Hicks201236,Hicks2012215,Hicks2019313} introduced a similar idea of an effective property that can be back-figured numerically from the response of a structure.
+
+    \switchcolumn
+
+    一系列破坏强度和模量的概念已经解释了最坏情况下的相关距离的概念\citep{Ching2013a,Ching2013b,Ching2014686,Hu2015121,Ching2016a,Ching2016b,Ching2016e,Ching2017b,Ching2017c}。将复杂的空间异质介质转换为等效的（在某种意义上）均质介质的想法与微力学中的经典均质化理论\citep{Paiboon20133233}类似，只是等效原理不同。该概念本质上是经典空间平均值的概括，发现它仅限于破坏路径受约束的情况（例如，桩的侧向阻力）。它不适用于出现的破坏路径（即解决边界值问题的破坏路径），例如斜坡破坏。显然，该路径不能由具有恒定积分限制的随机线积分表示。\citet{Hicks201236,Hicks2012215,Hicks2019313}引入了一种类似的有效属性的想法，可以从结构的响应中对其进行数字化反算。
+
+    \switchcolumn*
+
+    \citet{Ching2018}and \citet{Ching201981} further noted that the scale of fluctuation is a necessary but not a sufficient characterization of the ACF. They proposed a more complete characterization consisting of the scale of fluctuation and a smoothness parameter. This requires the adoption of a two-parameter autocorrelation function such as the powered exponential model and the Whittle–Matérn (WM) model. All classical autocorrelation functions, such as those in \enautoref{table:2}, are one-parameter models. This review paper focuses primarily on the scale of fluctuation, as few papers have characterized the smoothness parameter for real soil data.
+
+    \switchcolumn
+
+    \citet{Ching2018}和\citet{Ching201981}进一步指出，相关距离是ACF的必要但非充分特征。 他们提出了一个更完整的表征，包括相关距离和平滑度参数。 这就要求采用两参数自相关函数，例如幂指数模型和Whittle-Matérn（WM）模型。 所有经典的自相关函数（例如\cnautoref{table:2}中的函数）都是一参数模型。 这篇综述论文主要关注相关距离，因为很少有论文描述了真实土体数据的平滑度参数。
+
+    \CrossColumnText{
+        \input{tables/common-autocorrelation-models-and-their-frequency-of-usage-in-table-s1.tex}
+    }
+
+    \switchcolumn*
+
+    Due to the importance of the scale of fluctuation, various methods have been developed to characterize this parameter from soil data, particularly cone penetration test (CPT) measurements, which are the most commonly used method of obtaining near-continuous field data. The scale of fluctuation can be estimated from CPT data using methods such as the method of moments (e.g., \citet{Tang19791173,Lacasse199649,Uzielli20053,Zhang20101475}), maximum-likelihood estimation (MLE) (e.g., \cite{DeGroot1993147,Fenton1999470,Hicks2005123,Jaksa2005109,Lloret-Cabot2014129}), and Bayesian analysis (e.g., \citet{Wang2010354,Cao2012267,Tian2016197}).
+
+    \switchcolumn
+
+    由于相关距离的重要性，已开发出各种方法来从土体数据中表征该参数，尤其是圆锥静力触探试验（CPT）测量，这是获取近连续场数据的最常用方法。 可以使用诸如矩量法（例如，\citet{Tang19791173,Lacasse199649,Uzielli20053,Zhang20101475}），最大似然估计（MLE）（例如，\cite{DeGroot1993147,Fenton1999470,Hicks2005123,Jaksa2005109,Lloret-Cabot2014129}）以及贝叶斯分析（例如，\citet{Wang2010354,Cao2012267,Tian2016197}）等方法从CPT数据估计相关距离。
+
+    \switchcolumn*
+
+    Estimating the scale of fluctuation in the most general setting in which all parameters are unknown, including the shape of the trend function and the autocorrelation function, and in the presence of limited data (e.g., one CPT sounding) may not be tractable. \citet{Ching2017a} called this the identifiability problem. The problem is more tractable in the presence of multiple CPT soundings \citep{Ching2016d,Ching2016e,Ching2017,Xiao2019}.
+
+    \switchcolumn
+
+    在所有参数都未知的最一般的情况下，估计相关距离，包括趋势函数和自相关函数的形状，以及在数据有限的情况下（例如一次CPT探测），可能无法处理。\citet{Ching2017a}将其称为可识别性问题。在多重CPT探测中，这个问题更容易解决\citep{Ching2016d,Ching2016e,Ching2017,Xiao2019}。
+
+    \switchcolumn*
+
+    The purpose of this paper is twofold. The paper first provides an overview of the methods available for estimating the scale of fluctuation from CPT data, along with two examples for comparing the methods. Second, it provides a database table of horizontal and vertical scale of fluctuation values in different locations and for different geomaterials. This tabulation is important because commercial software such as Slide2 version 2018 and SVSlope version 2009, which can analyze geotechnical problems with 2D spatial variability, and SLOPE/W version 2012, which can analyze geotechnical problems with one-dimensional (1D) spatial variability, increasingly are expanding the reach of their analyses from homogeneous (or layered) soils to more realistic spatially varying soils. For cases with insufficient field data where engineers find the scale of fluctuation difficult to estimate, this table can serve as an important reference to provide a sense of the probable range of values for sensitivity analyses.
+
+    \switchcolumn
+
+    本文的目的是双重的。本文首先概述了可用于从CPT数据估计相关距离的方法，并提供了两个用于比较这些方法的示例。其次，提供了不同位置、不同地质材料的水平和竖直相关距离值的数据库表。这个表格非常重要，因为商业软件如Slide2 2018年版本和SVSlope 2009年版本，它可以用二维空间变异性分析岩土工程问题，以及 SLOPE/W 2012年版本，它可以用一维（1D）分析岩土工程问题空间变异性，日益扩大的分析从均匀土（或分层）到更现实的空间分布不同的土体。如果现场数据不足，工程师发现相关距离难以估计，此表可以作为一个重要的参考，为敏感性分析提供可能的取值范围。
+
+    \switchcolumn*
+
+    Past random finite-element studies have demonstrated that the probability of failure is a function of the spatial correlation structure, which may include other characteristics of the autocorrelation model in addition to the scale of fluctuation such as the smoothness, nonmonotonicity, and degree of anisotropy (i.e., the ratio of vertical to horizontal scales of fluctuation). The sensitivity of the probability of failure or other quantities of interest to the designer [e.g., resistance factor in the load and resistance factor design (LRFD)] to the scale of fluctuation or other characteristics of the autocorrelation model has not been studied systematically. The relation between scales of fluctuation for different soil parameters currently is unknown. Crosscorrelated vector fields involving multiple soil parameters currently are simulated assuming that all soil parameters follow a single autocorrelation model in the absence of data. These issues are important to random field applications, but they are outside the scope of this review paper, which focuses only on what have been characterized empirically from actual soil data in the literature.
+
+    \switchcolumn
+
+    过去的随机有限元研究表明，失效概率是空间相关结构的函数，除了相关距离（例如平滑度，非单调性和各向异性程度）外，它还可能包括自相关模型的其他特征（即上下波动比例之比）。失效概率或设计者感兴趣的其他数量的敏感性[例如：其中，载荷和阻力因子设计（LRFD）中的阻力因子]对相关距离等特性的自相关模型尚未得到系统的研究。目前尚不清楚不同土参数的相关距离之间的关系。当前，假设所有土参数都遵循单个自相关模型，并且没有数据，则当前模拟涉及多个土参数的互相关矢量场。这些问题对于随机领域的应用很重要，但是它们不在本综述的范围之内，本综述的重点仅在于根据文献中的实际土体数据凭经验得出的特征。
     
 \end{ParaColumn}

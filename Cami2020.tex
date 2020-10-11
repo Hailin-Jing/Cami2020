@@ -8,7 +8,7 @@
   bottom = 1.5cm%
 }%
 
-\title{\textbf{\href{https://ascelibrary.org/doi/10.1061/AJRUA6.0001083}{Scale of Fluctuation for Spatially Varying Soils: Estimation Methods and Values \\土体变化的波动尺度：估计方法与数值}}}
+\title{\textbf{\href{https://ascelibrary.org/doi/10.1061/AJRUA6.0001083}{Scale of Fluctuation for Spatially Varying Soils: Estimation Methods and Values \\土体变化的相关距离：估计方法与数值}}}
 
 \author{Brigid Cami \thanks{
     Geotechnical Software Developer, Rocscience, Inc., 54 St. Patrick St., Toronto, ON, Canada M5T 1V1. Email: \url{brigid.cami@rocscience.com}
@@ -37,11 +37,12 @@
     
     \switchcolumn
 
-    空间变异性是岩土工程应用中主要的不确定性来源之一。这种变异性通常以波动尺度为特征。波动尺度描述了土或岩石的参数相似或相关的距离。为了最好地表征和模拟空间可变场，需要波动尺度。本文首先概述了利用圆锥静力触探试验（CPT）数据估算波动尺度的各种方法，并给出了两个比较方法的例子。第一部分揭示了矩法和最大似然法这两种常用的估计方法存在的问题。矩量的方法对自相关函数（ACF）的选择不那么敏感，但它可能不那么精确，可能是基于一个不产生一个正定自相关矩阵的相关估计器。MLE对经典单参数ACF的选择非常敏感。假设这样一个ACF，而不是使用更一般的双参数惠特尔-马特模型从实际土体数据中识别ACF，这是很常见的。这种做法可能不健壮。尽管如此，如果记住这些警告，文献调查是有用的。本文的第二部分提供了从已发表的案例研究中收集的不同地点和不同材料的波动值水平和垂直尺度的数据库表，可以在没有现场数据的情况下作为参考。提供了土壤类型的函数值的可能范围，以告知敏感性分析和指导贝叶斯分析的先验分布的选择。
+    空间变异性是岩土工程应用中主要的不确定性来源之一。这种变异性通常以相关距离为特征。相关距离描述了土或岩石的参数相似或相关的距离。为了最好地表征和模拟空间可变场，需要相关距离。本文首先概述了利用圆锥静力触探试验（CPT）数据估算相关距离的各种方法，并给出了两个比较方法的例子。第一部分揭示了矩法和最大似然法这两种常用的估计方法存在的问题。矩量的方法对自相关函数（ACF）的选择不那么敏感，但它可能不那么精确，可能是基于一个不产生一个正定自相关矩阵的相关估计器。MLE对经典单参数ACF的选择非常敏感。假设这样一个ACF，而不是使用更一般的双参数惠特尔-马特模型从实际土体数据中识别ACF，这是很常见的。这种做法可能不健壮。尽管如此，如果记住这些警告，文献调查是有用的。本文的第二部分提供了从已发表的案例研究中收集的不同地点和不同材料的波动值水平和垂直尺度的数据库表，可以在没有现场数据的情况下作为参考。提供了土壤类型的函数值的可能范围，以告知敏感性分析和指导贝叶斯分析的先验分布的选择。
 
 \end{ParaColumn}
 
 \input{sections/introduction.tex}
+\input{sections/estimating-scale-of-fluctuation-from-CPT-data.tex}
 
 \bibliographystyle{plainnat}
 \bibliography{Cami2020.bib}

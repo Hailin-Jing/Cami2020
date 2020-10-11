@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.999992 (TeX Live 2020/W32TeX) (preloaded format=xelatex 2020.6.17)  7 OCT 2020 23:57
+This is XeTeX, Version 3.14159265-2.6-0.999992 (TeX Live 2020/W32TeX) (preloaded format=xelatex 2020.9.14)  11 OCT 2020 12:49
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -983,27 +983,36 @@ Package fontspec Info: Font family 'FangSong(0)' created for font 'FangSong'
 
  (./sections/introduction.tex [1
 
-] [2]) (./Cami2020.bbl
-Missing character: There is no φ in font [lmroman10-regular]:mapping=tex-text;!
+] [2] (./tables/worst-case-scale-of-fluctuations-reported-in-previous-studies.tex) [3] [4] (./tables/common-autocorrelation-models-and-their-frequency-of-usage-in-table-s1.tex
+
+LaTeX Warning: Reference `equation:2' on page 5 undefined on input line 22.
+
+) [5]) (./sections/estimating-scale-of-fluctuation-from-CPT-data.tex) (./Cami2020.bbl [6]
 LaTeX Font Info:    Font shape `TU/SimSun(0)/m/sl' in size <10> not available
-(Font)              Font shape `TU/SimSun(0)/m/it' tried instead on input line 79.
- [3]) [4]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 49.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 49.
+(Font)              Font shape `TU/SimSun(0)/m/it' tried instead on input line 138.
+ [7] [8]
+Missing character: There is no φ in font [lmroman10-regular]:mapping=tex-text;!
+ [9]) [10]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 50.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 50.
  (./Cami2020.aux)
-Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 49.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 49.
+Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 50.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 50.
 Package rerunfilecheck Info: File `Cami2020.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 49.
+
+
+LaTeX Warning: There were undefined references.
+
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 50.
  ) 
 Here is how much of TeX's memory you used:
- 28184 strings out of 479418
- 555315 string characters out of 5888105
- 873539 words of memory out of 5000000
- 45169 multiletter control sequences out of 15000+600000
- 545099 words of font info for 115 fonts, out of 8000000 for 9000
+ 28410 strings out of 479418
+ 562449 string characters out of 5888105
+ 889046 words of memory out of 5000000
+ 45384 multiletter control sequences out of 15000+600000
+ 545107 words of font info for 116 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 63i,12n,72p,1846b,775s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 63i,20n,82p,1846b,775s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on Cami2020.pdf (4 pages).
+Output written on Cami2020.pdf (10 pages).
